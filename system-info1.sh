@@ -5,8 +5,6 @@
 #Created Date: 25 Feb 2022 
 #Modified Date: 28 Feb 2022 
 #Author: Tushar Patole 
-# Start #
-
 
 while (( 1 ))
 do

@@ -7,8 +7,9 @@
 #Author: Tushar Patole 
 # Start #
 
-echo "Enter the number to view ubuntu system information" 
+echo "-------------------------------------------------"
 
+echo "To view ubuntu system information" 
 echo "0. List CPU & Processor Info"
 echo "1. Generic Hardware Information"
 echo "2. Detailed info about all PCI buses and devices in the system"
@@ -30,6 +31,7 @@ echo "16. Hard Disk Partition details"
 echo "17. Full Linux System Information"
 echo "18. Press q to quit"
 echo -n "enter your menu choice [1-18]: " 
+echo "------------------------------------------------"
 
 while (( 1 ))
 do
@@ -90,12 +92,12 @@ case ${num} in
 	17) echo "Linux System Full Information"
 	    inxi -F
 	    ;;
-	18) echo "quit:" 
+	q) echo "quit:" 
 	    exit 1
 	    ;;
 
 esac
 
-echo -n "Enter yout menu choice [1-18]: " 
+echo -n "Enter your menu choice [1-18]: " 
 
 done 
